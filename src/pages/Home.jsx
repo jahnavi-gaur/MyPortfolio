@@ -1,11 +1,21 @@
 import React from 'react'
+import Hero from '../components/Hero'
+import './Home.css'
+import TechStack from '../components/TechStack'
+import FeaturedProject from '../components/FeaturedProject'
 
 const Home = () => {
     return (
-        <div>
-            <section class="hero">Hero</section>
-            <section class="tech">TechStack</section>
-            <section class="projects">Projects</section>
+        <div className='home'>
+            <section className="hero">
+                <Hero />
+            </section>
+            <section className="tech">
+                <TechStack />
+            </section>
+            <section className="projects">
+                <FeaturedProject />
+            </section>
         </div>
     )
 }
