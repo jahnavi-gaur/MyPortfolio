@@ -1,0 +1,35 @@
+.formContainer{
+  display:flex;
+  flex-direction:column;
+  gap:20px;
+}
+
+.formContainer input,
+.formContainer textarea{
+  padding:12px;
+  border-radius:8px;
+  border:1px solid rgba(255,255,255,0.1);
+  background:#0b0f1a;
+  color:white;
+}
+
+.formContainer textarea{
+  resize:none;
+}
+
+.formContainer button{
+  padding:12px;
+  border-radius:8px;
+  border:none;
+  font-weight:500;
+  cursor:pointer;
+
+  background:linear-gradient(90deg,#6c63ff,#22d3ee);
+  color:white;
+
+  transition:0.3s;
+}
+
+.formContainer button:hover{
+  transform:scale(1.05);
+}

@@ -1,0 +1,52 @@
+.contactPage{
+  max-width:1200px;
+  height: 100%;
+  margin:auto;
+  padding:110px 20px;
+}
+
+.contactPage h1{
+  text-align:center;
+  font-size:36px;
+  margin-bottom:50px;
+}
+
+.contactPage h1::after{
+  content:"";
+  display:block;
+  width:80px;
+  height:4px;
+  margin:12px auto 0;
+  background:linear-gradient(90deg,#6c63ff,#22d3ee);
+  border-radius:5px;
+}
+
+/* MAIN LAYOUT */
+
+.contactContainer{
+  display:flex;
+  justify-content:space-between;
+  gap:40px;
+}
+
+/* LEFT */
+
+.contactInfo{
+  flex:1;
+}
+
+/* RIGHT */
+
+.contactForm{
+  flex:1;
+}
+
+/* MOBILE */
+
+@media (max-width:900px){
+
+.contactContainer{
+  flex-direction:column;
+}
+
+}

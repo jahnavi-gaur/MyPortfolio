@@ -1,0 +1,24 @@
+.infoContainer h2{
+  font-size:28px;
+  margin-bottom:20px;
+}
+
+.infoContainer p{
+  color:#cbd5e1;
+  margin-bottom:30px;
+  line-height:1.6;
+}
+
+.infoItem{
+  margin-bottom:20px;
+}
+
+.infoItem h4{
+  font-size:16px;
+  color:#6c63ff;
+}
+
+.infoItem span{
+  font-size:15px;
+  color:#e5e7eb;
+}

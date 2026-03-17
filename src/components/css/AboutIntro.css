@@ -1,0 +1,35 @@
+/* ===== INTRO SECTION ===== */
+
+.about-intro{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:60px;
+}
+
+/* IMAGE */
+
+.intro-img img{
+  width:280px;
+  border-radius:20px;
+  object-fit:cover;
+  box-shadow:0 15px 35px rgba(0,0,0,0.4);
+}
+
+/* TEXT */
+
+.my-intro{
+  max-width:600px;
+}
+
+.my-intro p{
+  font-size:18px;
+  line-height:1.7;
+  color:#9ca3af;
+}
+
+@media (max-width: 700px) {
+    .about-intro{
+        flex-direction: column;
+    }
+}

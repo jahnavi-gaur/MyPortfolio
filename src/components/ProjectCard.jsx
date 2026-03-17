@@ -1,6 +1,6 @@
 import React from 'react'
 import reactLogo from "../assets/skillLogos/react.png"
-import './ProjectCard.css'
+import './css/ProjectCard.css'
 
 const ProjectCard = ({project}) => {
   return (

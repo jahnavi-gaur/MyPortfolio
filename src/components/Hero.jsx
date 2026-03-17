@@ -1,7 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import profile from '../assets/profile.png'
-import '../components/Hero.css'
+import '../components/css/Hero.css'
 import { ReactTyped } from 'react-typed'
 
 const Hero = () => {

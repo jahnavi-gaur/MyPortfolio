@@ -1,6 +1,6 @@
 import React from 'react'
 import Hero from '../components/Hero'
-import './Home.css'
+import './css/Home.css'
 import TechStack from '../components/TechStack'
 import FeaturedProject from '../components/FeaturedProject'
 

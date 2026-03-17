@@ -1,6 +1,6 @@
 import React from 'react'
 import ProjectCard from './ProjectCard'
-import './FeaturedProject.css'
+import './css/FeaturedProject.css'
 import { useNavigate } from 'react-router-dom'
 import { projects } from '../data/projects'
 

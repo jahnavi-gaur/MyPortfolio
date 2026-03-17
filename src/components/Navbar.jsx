@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { NavLink, useNavigate } from 'react-router-dom'
-import './Navbar.css'
+import './css/Navbar.css'
 
 const Navbar = () => {
   const navigate = useNavigate()
@@ -16,7 +16,7 @@ const Navbar = () => {
   }
 
   function handleClick() {
-    navigate("/contact")
+    navigate("/contact#form")
   }
 
   return (

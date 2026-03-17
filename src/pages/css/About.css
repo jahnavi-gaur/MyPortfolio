@@ -1,0 +1,32 @@
+/* ===== ABOUT PAGE ===== */
+
+.about{
+  max-width:1200px;
+  margin:0 auto;
+  padding:100px 20px 60px;
+}
+
+/* ===== PAGE HEADING ===== */
+
+.about h1{
+  text-align:center;
+  font-size:38px;
+  margin-bottom:60px;
+  font-weight:700;
+}
+
+.about h1::after{
+  content:"";
+  display:block;
+  width:80px;
+  height:4px;
+  margin:12px auto 0;
+  background:linear-gradient(90deg,#6c63ff,#22d3ee);
+  border-radius:5px;
+}
+
+/* section spacing */
+
+.about section{
+  margin-bottom:80px;
+}

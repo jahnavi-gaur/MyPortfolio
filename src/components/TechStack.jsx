@@ -1,6 +1,6 @@
 import React from 'react'
 import TechCard from './TechCard';
-import './TechStack.css'
+import './css/TechStack.css'
 
 const TechStack = () => {
     const techStack = [

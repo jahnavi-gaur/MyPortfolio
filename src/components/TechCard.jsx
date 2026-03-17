@@ -1,5 +1,5 @@
 import React from 'react'
-import "./TechCard.css"
+import "./css/TechCard.css"
 
 import reactLogo from "../assets/skillLogos/react.png"
 import nodeLogo from "../assets/skillLogos/node.png"
